@@ -1,28 +1,29 @@
 Enigma Chronicles: Detective's Gambit
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Welcome to Enigma Chronicles: Detective's Gambit! Embark on a thrilling journey through a world of secrets, lies, and intrigue. Investigate crime scenes, interrogate suspects, and piece together scattered clues to uncover the ultimate truth. This interactive detective adventure is enhanced with features like clue tracking, dynamic notifications, forensic tools, and voice-based interactions, delivering a seamless and captivating gameplay experience.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔍 Project Overview
 The mission of this project is to create an engaging and interactive detective narrative where players can:
 
-Investigate crime scenes across different areas, each holding vital evidence.
-Interact with a diverse cast of suspects, unraveling their motives and alibis.
-Track clues dynamically through an integrated notepad to keep the investigation organized.
-Engage in AI-driven conversations to unlock hidden details and gather key insights.
-Leverage forensic analysis to examine evidence in detail, unveiling critical leads.
-Use Speech-to-Text functionality to conduct voice-based interactions with suspects.
-Receive real-time notifications for critical game events and discoveries, keeping players informed and engaged.
+1.Investigate crime scenes across different areas, each holding vital evidence.
+2.Interact with a diverse cast of suspects, unraveling their motives and alibis.
+3.Track clues dynamically through an integrated notepad to keep the investigation organized.
+4.Engage in AI-driven conversations to unlock hidden details and gather key insights.
+5.Leverage forensic analysis to examine evidence in detail, unveiling critical leads.
+6.Use Speech-to-Text functionality to conduct voice-based interactions with suspects.
+7.Receive real-time notifications for critical game events and discoveries, keeping players informed and engaged.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Key Features:
-Notepad System: Automatically logs discovered clues, accessible anytime during gameplay.
-Loading Animations: Smooth scene transitions heighten suspense and immersion.
-Unlockable Clues: Progress through the game to reveal additional hints and context.
-Toast Alerts: On-screen notifications provide instant updates on actions and findings.
-Dynamic Soundtrack: Suspenseful music adapts to the pace and intensity of the investigation.
-Forensic Toolkit: Examine physical evidence to extract detailed insights.
-Speech-to-Text Integration: Simplifies interactions by transcribing voice commands to text.
-Responsive Design: Optimized for both desktop and mobile gameplay.
+1. Notepad System: Automatically logs discovered clues, accessible anytime during gameplay.
+2. Loading Animations: Smooth scene transitions heighten suspense and immersion.
+3. Unlockable Clues: Progress through the game to reveal additional hints and context.
+4. Toast Alerts: On-screen notifications provide instant updates on actions and findings.
+5. Dynamic Soundtrack: Suspenseful music adapts to the pace and intensity of the investigation.
+6. Forensic Toolkit: Examine physical evidence to extract detailed insights.
+7. Speech-to-Text Integration: Simplifies interactions by transcribing voice commands to text.
+8. Responsive Design: Optimized for both desktop and mobile gameplay.
 -----------------------------------------------------------------------------------------------------------------------------------------
-
-
 
 🛠️ Tools and Technologies Used
 Frontend:
@@ -35,7 +36,7 @@ Python: Powers the AI chatbot for suspect interactions using NLP techniques.
 Flask/Django: Serves API endpoints and manages backend functionality.
 Custom Forensic Modules: Scripted logic for analyzing in-game evidence.
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎨 Key Features
 Interactive Exploration:
 
