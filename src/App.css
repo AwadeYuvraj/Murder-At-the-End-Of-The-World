@@ -1,0 +1,278 @@
+/* Ensure full height for root and body */
+html, body {
+  height: 100%; /* Full height for body and html elements */
+  margin: 0;
+  background-color: rgb(31, 43, 54); 
+  /* Body background color */
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%; /* Full height for root */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden; /* Prevent the container from overflowing */
+}
+
+.bg-garden{
+  background-image: url('./assets/garden.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+} 
+.bg-garden-f{
+  background-image: url('./assets/garden.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+} 
+.bg-diningRoom{
+  background-image: url('./assets/diningRoom.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+} .bg-diningRoom-f{
+  background-image: url('./assets/diningRoom-f.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+}.bg-kitchen{
+  background-image: url('./assets/kitchen.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+}.bg-kitchen-f{
+  background-image: url('./assets/kitchenf.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+} .bg-study{
+  background-image: url('./assets/study.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+}.bg-study-f{
+  background-image: url('./assets/studyf.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+} .bg-balcony{
+  background-image: url('./assets/balcony.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+}.bg-balcony-f{
+  background-image: url('./assets/balconyf.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+} .bg-library {
+  background-image: url('./assets/basement.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+}
+.bg-library-f {
+  background-image: url('./assets/basementf.jpg');
+  height: 100%; /* Ensure the background image takes up full height */
+  min-height: 100vh; /* Ensure the container doesn't shrink */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-y: auto; /* Allow scrolling inside these containers */
+}
+.bg-garden::-webkit-scrollbar,
+.bg-diningRoom::-webkit-scrollbar,
+.bg-kitchen::-webkit-scrollbar,
+.bg-study::-webkit-scrollbar,
+.bg-balcony::-webkit-scrollbar,
+.bg-library::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.bg-garden,
+.bg-diningRoom,
+.bg-kitchen,
+.bg-study,
+.bg-balcony,
+.bg-library {
+  -ms-overflow-style: none;  /* For Internet Explorer 10+ */
+  scrollbar-width: none;      /* For Firefox */
+}
+
+.bg-garden-f::-webkit-scrollbar,
+.bg-diningRoom-f::-webkit-scrollbar,
+.bg-kitchen-f::-webkit-scrollbar,
+.bg-study-f::-webkit-scrollbar,
+.bg-balcony-f::-webkit-scrollbar,
+.bg-library-f::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.bg-garden-f,
+.bg-diningRoom-f,
+.bg-kitchen-f,
+.bg-study-f,
+.bg-balcony-f,
+.bg-library-f {
+  -ms-overflow-style: none;  /* For Internet Explorer 10+ */
+  scrollbar-width: none;      /* For Firefox */
+}
+
+.suspect-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.suspect-name {
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.suspect-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image maintains aspect ratio and covers container */
+  border-radius: 12px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Typing response container: keeps text from overflowing */
+.typing-response-container {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal; /* Allows the text to wrap normally */
+  max-height: 90vh; /* Limit max height */
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+/* Hide the scrollbar but keep the scroll functionality */
+.custom-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.custom-scrollbar {
+  -ms-overflow-style: none;  /* For Internet Explorer 10+ */
+  scrollbar-width: none;      /* For Firefox */
+}
+
+/* Style for input container */
+.inline-flex {
+  display: inline-flex;
+  gap: 1rem;
+  background-color: #2d3748; /* Dark background for the input container */
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  width: 100%; /* Ensure the container takes up full width */
+  box-sizing: border-box; /* Prevent overflow by adjusting width */
+}
+
+/* Style for ActionButton */
+button, .ActionButton {
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover, .ActionButton:hover {
+  background-color: #dc2626; /* Darker red on hover */
+  color:white;
+}
+
+/* Style for choose killer button */
+button:disabled {
+  background-color: #6b7280; /* Disabled button color */
+  cursor: not-allowed;
+}
+/* Custom Toast styles for dark theme */
+.Toastify__toast-container--dark {
+  background-color: rgba(0, 0, 0, 0.8) !important; /* Dark background */
+  color: #fff !important; /* Light text color */
+}
+
+.Toastify__toast--dark {
+  background-color: rgba(0, 0, 0, 0.9) !important; /* Dark toast background */
+  color: #fff !important; /* Text color */
+  border-radius: 10px;
+}
+
+.Toastify__toast--dark .Toastify__progress-bar {
+  background-color: #ff4747; /* Optional: color for progress bar */
+}

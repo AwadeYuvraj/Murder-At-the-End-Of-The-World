@@ -1,0 +1,67 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey"],
+        "responses": ["Hello, Detective! Are you ready to solve the mystery?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["goodbye", "see you", "bye"],
+        "responses": ["Good luck with your investigation. Farewell!"]
+      },
+      {
+        "tag": "people",
+        "patterns": ["who are the suspects?", "who are the people involved?", "tell me about the witnesses"],
+        "responses": [
+          "The suspects are James, the butler; Sarah, the maid; and Dr. Brown, the family physician. Who would you like to interrogate?"
+        ]
+      },
+      {
+        "tag": "interrogation_start",
+        "patterns": ["I want to interrogate", "Can I ask questions to", "Let’s talk to"],
+        "responses": [
+          "Alright, who would you like to start with: James, Sarah, or Dr. Brown?"
+        ]
+      },
+      {
+        "tag": "interrogate_james",
+        "patterns": ["talk to James", "interrogate the butler", "question James"],
+        "responses": [
+          "James: 'I was in the kitchen preparing dinner when the incident occurred.'",
+          "James: 'I don't know much, I was busy in the kitchen. But I did see Dr. Brown entering the study shortly before the scream.'"
+        ]
+      },
+      {
+        "tag": "interrogate_sarah",
+        "patterns": ["talk to Sarah", "interrogate the maid", "question Sarah"],
+        "responses": [
+          "Sarah: 'I was dusting the library shelves. I heard a scream and ran towards it.'",
+          "Sarah: 'I saw the butler leaving the kitchen right after the scream. He looked nervous.'"
+        ]
+      },
+      {
+        "tag": "interrogate_dr_brown",
+        "patterns": ["talk to Dr. Brown", "interrogate the doctor", "question Dr. Brown"],
+        "responses": [
+          "Dr. Brown: 'I was checking on the family's health records in the study. I didn't hear anything unusual.'",
+          "Dr. Brown: 'I was in the study but didn't see anything. The butler was the last person I saw before the scream.'"
+        ]
+      },
+      {
+        "tag": "clue",
+        "patterns": ["do you have any clues?", "what clues are available?", "give me a clue"],
+        "responses": [
+          "The clues found are a torn piece of fabric, a broken watch, and mud tracks leading to the back door."
+        ]
+      },
+      {
+        "tag": "accuse",
+        "patterns": ["I think it was", "the culprit is", "I accuse"],
+        "responses": [
+          "Are you sure you want to accuse {person}? Make sure you have enough evidence to back up your claim."
+        ]
+      }
+    ]
+  }
+  
