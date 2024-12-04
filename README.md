@@ -20,6 +20,10 @@ Dynamic Soundtrack: Suspenseful music adapts to the pace and intensity of the in
 Forensic Toolkit: Examine physical evidence to extract detailed insights.
 Speech-to-Text Integration: Simplifies interactions by transcribing voice commands to text.
 Responsive Design: Optimized for both desktop and mobile gameplay.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 🛠️ Tools and Technologies Used
 Frontend:
 React: Framework for creating responsive and dynamic user interfaces.
@@ -30,6 +34,8 @@ Backend:
 Python: Powers the AI chatbot for suspect interactions using NLP techniques.
 Flask/Django: Serves API endpoints and manages backend functionality.
 Custom Forensic Modules: Scripted logic for analyzing in-game evidence.
+
+
 🎨 Key Features
 Interactive Exploration:
 
@@ -60,6 +66,7 @@ Integrates Speech-to-Text functionality, enabling voice-based questioning and na
 Real-Time Feedback:
 
 Toast notifications ensure players are aware of critical developments as they happen.
+-------------------------------------------------------------------------------------------------------------------------------
 🐞 Current Bugs to Address
 Sound Overlap: Background music sometimes clashes when moving between locations.
 Voice Recognition: Speech-to-Text occasionally struggles with heavy accents or unclear speech.
